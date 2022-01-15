@@ -1,0 +1,18 @@
+
+1. 1 компьютерт dual booth хийж 2 үйлдлийн систем зэрэг суулгаж болно.
+
+2. Start-> Edit the system environment variables-> Environment Variables->User variables for Home-> Path ->Edit-> New-> Paste programm direction with scripts
+
+3. Space-тэй folder платформ хооронд шилжихдээ өөрчлөгддөг. Жишээлбэл: Dropbox дээр share хийвэл %-иар харуулдаг, link-ийг хуулахад тасалдах магадлалтай.
+
+4. Git: Эх кодынхоо түүхийг хянаж удирдах зорилготой удирдлагын систем
+   Github: Get Repository-г удирдахад зориулсан үүлэнд суурилсан хостинг систем
+
+5. Jupyter notebook нь IDE биш. 
+
+6. Git commit - Staging area дээр хийсэн өөрчлөлтөө local дээрээ хадгална.
+   Git push - Local дээр хийсэн өөрлөлтөө github дээрх repository-доо хадгална.
+
+7. Push хийхээс өмнө хэдэн ч удаа commit хийж болно.
+
+8. Commit хийхэд github-д access хийх хэрэггүй. Push хийхэд хэрэгтэй.
