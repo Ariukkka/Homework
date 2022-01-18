@@ -1,0 +1,17 @@
+#Task 1-3. Only men under 23 years old
+import pandas as pd
+df=pd.read_excel(r"C:\Users\dagii\Desktop\Homework\Homework #2\data.xlsx")
+df.head()
+#Using pandas
+df[(df["age"]<23) & (df["gender"] != "M")]
+#Using loops
+for i in range(15):
+    if (i > 8) and (i < 12): # and = & or = |
+        print(i, 'skipping')
+        continue # skip this time
+    else:
+        if np.mod(i,2) == 0:
+            print(i)
+        else:
+            print(i, ' Not even')    
+    print('it continued!')
