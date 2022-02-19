@@ -1,0 +1,22 @@
+Task 1-2. Only women older than 25 years old
+
+from pickletools import pylist
+import pandas as pd
+df=pd.read_excel(r"C:\Users\dagii\Desktop\Homework\Homework #2\data.xlsx")
+df.head()
+
+#Using pandas
+df[(df["age"]>25) & (df["gender"] == "F")]
+mylist1=df[(df["age"]>25) & (df["gender"] == "F")]
+len(mylist1)
+
+#Using loops 
+mylist=[]
+for index, row in df.iterrows():
+    if row['age']>25 and row['gender']=='F':
+        mylist.append(row)
+len(mylist)
+
+df1 = pd.DataFrame(mylist)
+
+df1.to_csv('mycsv.csv')

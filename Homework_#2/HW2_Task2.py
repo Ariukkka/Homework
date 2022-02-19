@@ -13,3 +13,4 @@ df.groupby("gender")['salary'].mean()
 #4
 import numpy as np
 table = pd.pivot_table(df, values=['salary'], index=['gender'], aggfunc=np.mean)
+
